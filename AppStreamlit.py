@@ -50,7 +50,7 @@ if page == "Inicio":
     with col2:
         # Aquí se carga la imagen que mencionaste
         try:
-            st.image("imagen_inicio.png", caption="Análisis de Salud Pública - Talento Tech")
+            st.image("Hpta.webp", caption="Análisis de Salud Pública - Talento Tech")
         except:
             st.warning("⚠️ No se encontró 'imagen_inicio.png'. Asegúrate de subirla al repositorio.")
 
@@ -102,3 +102,4 @@ elif page == "Dashboard Informativo":
 
     else:
         st.error("Error al cargar los datos para el dashboard.")
+
